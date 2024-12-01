@@ -13,14 +13,20 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
+---
+
 <h1>My Interactive Plot</h1>
 
-<iframe src="{{ '/assets/plotly/interactive_plot.html' | relative_url }}" width="100%" height="600px"></iframe>
+<!-- Embed the interactive plot -->
+<iframe src="{{ '/assets/plotly/interactive_plot.html' | relative_url }}" width="100%" height="600px" frameborder="0"></iframe>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+<h1>My Animated Plot</h1>
+
+<!-- Embed the animated plot -->
+<iframe src="{{ '/assets/plotly/animated_plot.html' | relative_url }}" width="100%" height="600px" frameborder="0"></iframe>
+
 ---
+
 
 Welcome to the data story of the team ABRA-K-dabra
 
